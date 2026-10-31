@@ -1,0 +1,54 @@
+# ===== DATA =====
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/README.md
+
+# ===== PYTHON =====
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== JUPYTER =====
+.ipynb_checkpoints/
+.virtual_documents/
+
+# ===== ANACONDA =====
+anaconda_projects/
+
+# ===== OFFICE =====
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ===== MACOS =====
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== TABLEAU =====
+*.twbx
+*.twb
+*.hyper
+*.tde
+
+# ===== DATABASE =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== ENV / SECRETS =====
+.env
+.env.*
+!.env.example
+*.log
+
+# ===== TEMPORARY FILES =====
+*.swp
+*.swo
+*~
