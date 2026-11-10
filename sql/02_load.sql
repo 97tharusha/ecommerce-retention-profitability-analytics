@@ -1,0 +1,3 @@
+-- Data loading was performed via Python (pandas.to_sql) in 01_data_quality_and_cleaning.ipynb.
+-- Alternatively, the data can be loaded natively in PostgreSQL using:
+-- COPY orders FROM '/path/to/orders_clean.csv' DELIMITER ',' CSV HEADER;
